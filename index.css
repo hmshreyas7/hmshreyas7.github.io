@@ -1,7 +1,3 @@
-a { 
-    text-decoration: none;
-}
-
 body {
     margin: 0% 10%;
     text-align: justify;
@@ -24,4 +20,8 @@ h2 {
 
 h3 {
     color: midnightblue
+}
+
+a { 
+    text-decoration: none;
 }
