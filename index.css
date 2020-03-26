@@ -4,9 +4,13 @@ a {
 }
 
 body {
-    margin: 0% 20%;
+    margin: 0px;
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    padding: 0px 32px;
 }
 
 .footer {
@@ -16,6 +20,8 @@ body {
 }
 
 h1 {
+    display: flex;
+    align-items: center;
     color: purple;
 }
 
@@ -33,10 +39,9 @@ img {
 
 .links {
     display: flex;
-    align-items: center;
     margin-left: auto;
 }
 
 .links a {
-    padding: 5px 2px 0px;
+    padding: 0px 4px;
 }
