@@ -53,3 +53,11 @@ img {
 .top-bar {
     border: 1px solid black;
 }
+
+.top-bar p {
+    align-items: center;
+    color: purple;
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+}
