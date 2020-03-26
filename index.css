@@ -19,16 +19,6 @@ body {
     opacity: 0.6;
 }
 
-h1 {
-    display: flex;
-    align-items: center;
-    color: purple;
-}
-
-h2 {
-    color: crimson;
-}
-
 h3 {
     color: midnightblue;
 }
@@ -50,6 +40,12 @@ img {
     border: 1px solid black;
 }
 
+.nav-bar p {
+    color: crimson;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .top-bar {
     border: 1px solid black;
 }
@@ -60,4 +56,9 @@ img {
     display: flex;
     font-size: 32px;
     font-weight: bold;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 18px;
 }
