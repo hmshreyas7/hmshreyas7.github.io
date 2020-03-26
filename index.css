@@ -45,3 +45,11 @@ img {
 .links a {
     padding: 0px 4px;
 }
+
+.nav-bar {
+    border: 1px solid black;
+}
+
+.top-bar {
+    border: 1px solid black;
+}
