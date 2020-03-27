@@ -5,7 +5,6 @@ a {
 
 body {
     margin: 0px;
-    text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -42,7 +41,7 @@ img {
 
 .nav-bar p {
     color: crimson;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
 }
 
@@ -58,7 +57,39 @@ img {
     font-weight: bold;
 }
 
+.timeline {
+    margin: 60px 0px;
+}
+
+.timeline .info {
+    align-items: center;
+    display: flex;
+}
+
+.timeline .info .desc {
+    flex: 1;
+    padding: 0px 4px;
+    text-align: justify;
+}
+
+.timeline .info .logo {
+    flex: 1;
+    padding: 0px 4px;
+    text-align: center;
+}
+
+.timeline .info .logo img {
+    max-width: 90%;
+}
+
+.timeline .period {
+    font-size: 20px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
 .welcome {
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: bold;
 }
