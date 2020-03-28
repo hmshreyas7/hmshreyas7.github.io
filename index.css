@@ -45,6 +45,26 @@ img {
     font-weight: bold;
 }
 
+.project {
+    margin: 32px 0px 64px;
+}
+
+.project .logo {
+    text-align: center;
+}
+
+.project .logo img {
+    max-width: 90%;
+}
+
+.quarter {
+    margin: 32px 0px 64px;
+}
+
+.quarter .subject {
+    margin: 0px 0px 32px;
+}
+
 .top-bar {
     border: 1px solid black;
 }
@@ -69,7 +89,6 @@ img {
 .timeline .info .desc {
     flex: 1;
     padding: 0px 4px;
-    text-align: justify;
 }
 
 .timeline .info .logo {
