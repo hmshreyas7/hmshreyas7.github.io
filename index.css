@@ -35,6 +35,10 @@ img {
     padding: 0px 4px;
 }
 
+.links img {
+    vertical-align: middle;
+}
+
 .nav-bar {
     border: 1px solid black;
 }
