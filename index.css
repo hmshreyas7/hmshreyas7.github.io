@@ -13,20 +13,6 @@ body {
     padding: 0px 32px;
 }
 
-.footer {
-    text-align: center;
-    font-size: 12px;
-    opacity: 0.6;
-}
-
-h3 {
-    color: midnightblue;
-}
-
-img {
-    vertical-align: bottom;
-}
-
 .nav-bar {
     background-color: #EE0058;
     display: flex;
