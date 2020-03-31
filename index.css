@@ -4,7 +4,7 @@ a {
 }
 
 body {
-    background-color: #FFE4EB;
+    background-color: #FDE3EA;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
 }
@@ -22,7 +22,8 @@ body {
 }
 
 .nav-bar {
-    background-color: #EE0058;
+    background-color: #AF004B;
+    color: white;
     display: flex;
 }
 
@@ -34,10 +35,12 @@ body {
 
 .nav-course-bar {
     background-color: #FCD000;
+    color: black;
 }
 
 .nav-proj-bar {
     background-color: #0E82F0;
+    color: black;
 }
 
 .project {
@@ -113,7 +116,8 @@ body {
 
 .top-bar {
     align-items: center;
-    background-color: #FF0059;
+    background-color: #C3004E;
+    color: white;
     display: flex;
 }
 
@@ -134,10 +138,12 @@ body {
 
 .top-course-bar {
     background-color: #FDE200;
+    color: black;
 }
 
 .top-proj-bar {
     background-color: #0092FF;
+    color: black;
 }
 
 .welcome {
