@@ -4,7 +4,7 @@ a {
 }
 
 body {
-    background-color: #FDE3EA;
+    background-color: #FCE4EC;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .nav-bar {
-    background-color: #AF004B;
+    background-color: #AD1457;
     color: white;
     display: flex;
 }
@@ -116,7 +116,7 @@ body {
 
 .top-bar {
     align-items: center;
-    background-color: #C3004E;
+    background-color: #C2185B;
     color: white;
     display: flex;
 }
