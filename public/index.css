@@ -1,0 +1,187 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fce4ec;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+
+header {
+  color: white;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.header-main-wrapper {
+  align-items: center;
+  background-color: #c2185b;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.social-links-wrapper {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.nav-list {
+  background-color: #ad1457;
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 16px;
+}
+
+.nav-list li {
+  list-style-type: none;
+}
+
+.body-course {
+  background-color: #fffce4;
+}
+
+.body-proj {
+  background-color: #e2f1ff;
+}
+
+.content {
+  padding: 0px 32px;
+}
+
+.nav-bar {
+  background-color: #ad1457;
+  color: white;
+  display: flex;
+}
+
+.nav-bar p {
+  font-size: 20px;
+  font-weight: bold;
+  word-spacing: 16px;
+}
+
+.nav-course-bar {
+  background-color: #fcd000;
+  color: black;
+}
+
+.nav-proj-bar {
+  background-color: #0e82f0;
+  color: black;
+}
+
+.project {
+  margin: 40px 0px;
+}
+
+.project .logo {
+  text-align: center;
+}
+
+.project .logo img {
+  max-width: 90%;
+}
+
+.project .proj-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project .tech {
+  font-weight: bold;
+}
+
+.quarter {
+  margin: 40px 0px;
+}
+
+.quarter .instruct {
+  font-weight: bold;
+}
+
+.quarter .quarter-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.quarter .subject {
+  font-weight: bold;
+}
+
+.timeline {
+  margin: 40px 0px;
+}
+
+.timeline .info {
+  align-items: center;
+  display: flex;
+}
+
+.timeline .info .desc {
+  flex: 1;
+  padding: 0px 4px;
+}
+
+.timeline .info .logo {
+  flex: 1;
+  padding: 0px 4px;
+  text-align: center;
+}
+
+.timeline .info .logo img {
+  max-width: 90%;
+}
+
+.timeline .period {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: #c2185b;
+  color: white;
+  display: flex;
+}
+
+.top-bar .links {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+}
+
+.top-bar .links a {
+  padding: 0px 4px;
+}
+
+.top-bar p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.top-course-bar {
+  background-color: #fde200;
+  color: black;
+}
+
+.top-proj-bar {
+  background-color: #0092ff;
+  color: black;
+}
+
+.welcome {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
