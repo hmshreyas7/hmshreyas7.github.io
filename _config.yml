@@ -1,3 +1,7 @@
 theme: jekyll-theme-slate
+
+github:
+  is_project_page: true
+
 title: Deeper into the Game
 description: Sports tech blog
