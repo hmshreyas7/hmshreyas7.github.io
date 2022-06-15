@@ -1,3 +1,3 @@
-## Deeper into the Game
+## Welcome!
 
-Test post to check if everything's working as expected.
+This is where I will be sharing all my analysis, visualizations and ML-based predictions for cricket and football matches/tournaments.
