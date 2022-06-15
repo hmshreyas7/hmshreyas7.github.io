@@ -6,6 +6,7 @@ This is where I will be sharing all my analysis, visualizations and ML-based pre
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
