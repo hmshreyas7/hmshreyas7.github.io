@@ -4,4 +4,5 @@ github:
   is_project_page: false
 
 title: Deeper into the Game
-description: Sports tech blog
+description: Cricket tech blog
+excerpt_separator: <!--more-->
