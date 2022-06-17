@@ -48,3 +48,5 @@ Both the prediction models seem to perform well not only based on the evaluation
 Outputs produced by non-linear models such as[ decision trees](https://scikit-learn.org/stable/modules/tree.html) and [random forests](https://scikit-learn.org/stable/modules/ensemble.html#forest) appear to lack this connection despite producing similar performance levels. For example, a wicket falling might hardly lead to any change in the line's direction and then an over later, it might drop sharply for no apparent reason. This isn't very intuitive and may seem confusing from a viewer's perspective. Tuning the hyperparameters of these models could potentially help mitigate this issue.
 
 Considering other features such as which batsmen are at the crease, the quality of opposition bowlers, how good specific players are in certain phases of play, the ground/pitch/weather conditions, etc. may also help in building superior models. Acquiring all this information for past matches and then using it for model training, however, is a big challenge.
+
+***The code for the 2 models discussed above can be found [here](https://github.com/hmshreyas7/t20-score-and-win-predictor).***
