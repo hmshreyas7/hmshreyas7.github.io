@@ -3,6 +3,8 @@ layout: default
 title: Score and Win Predictor
 ---
 
+#### {{ page.date | date: "%B %-d, %Y" }}
+
 ## Score and Win Predictor
 After earning my cricket analytics certificate, I started applying some of the techniques I learned to analyze data from both the [South Africa vs. India](https://github.com/hmshreyas7/sa-vs-ind-2021) Test series and the [Ashes](https://github.com/hmshreyas7/ashes-2021) in 2021/22. Through this experience, I was able to take a closer look at very intriguing aspects of the game such as a team's reliance on a single batter, batters that have stepped up when their team is under pressure, effectiveness of teams with the ball based on how old it is, and so on.
 
