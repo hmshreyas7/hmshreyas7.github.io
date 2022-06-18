@@ -1,6 +1,6 @@
 ## Welcome!
 
-After attending a workshop provided by [Mad About Sports](https://madaboutsports.in/) in association with [Rajasthan Royals](https://www.rajasthanroyals.com/), I became very much interested in the career path of a cricket analyst/data scientist.
+After attending a workshop provided by [Mad About Sports](https://madaboutsports.in/) in association with [Rajasthan Royals](https://www.rajasthanroyals.com/), I became very much interested in the career path of a cricket data scientist/analyst.
 
 <img src="/assets/workshop-certificate.jpg" alt="Workshop Certificate" title="Workshop Certificate" width="100%" />
 
