@@ -1,3 +1,7 @@
+---
+mathjax: true
+---
+
 ## Welcome!
 
 After attending a workshop provided by [Mad About Sports](https://madaboutsports.in/) in association with [Rajasthan Royals](https://www.rajasthanroyals.com/), I became very much interested in the career path of a cricket data scientist/analyst.
