@@ -5,7 +5,12 @@ title: Road to the Playoffs - IPL 2022
 
 #### {{ page.date | date: "%B %-d, %Y" }}
 
-## Road to the Playoffs - IPL 2022
+{% if page.path contains 'excerpt' %}
+<h2><a href="{{ page.url }}" style="text-decoration: none; color: unset;">{{ page.title }}</a></h2>
+{% else %}
+<h2>{{ page.title }}</h2>
+{% endif %}
+
 With the league stage done and dusted, only four teams remain in the race for winning this year's IPL and three of those are aiming to win their first title. Moreover, it is only the second time that just one from the preceding season's top 4 has qualified for the playoffs whereas every other year (apart from [2016](https://www.iplt20.com/points-table/men/2016)) has always had 2-3 from the previous set.
 
 In my last post, we tried to identify the [title contenders]({% post_url 2022-03-26-identifying-potential-champions-ipl-2022 %}) based on the previous season's data. The goal in this one is to expand on that and use the information that we have from the start of the tournament up to this point ("the road to the playoffs") to predict which team is most likely to win the big prize from here.

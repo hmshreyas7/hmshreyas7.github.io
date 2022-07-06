@@ -6,7 +6,12 @@ mathjax: true
 
 #### {{ page.date | date: "%B %-d, %Y" }}
 
-## Identifying Potential Champions - IPL 2022
+{% if page.path contains 'excerpt' %}
+<h2><a href="{{ page.url }}" style="text-decoration: none; color: unset;">{{ page.title }}</a></h2>
+{% else %}
+<h2>{{ page.title }}</h2>
+{% endif %}
+
 In my last post, we looked at how [linear machine learning models]({% post_url 2022-02-27-score-and-win-predictor %}) can be trained to effectively predict a team's score and win probability simply based on a small set of features. I was able to extend the same logic to the IPL by just modifying the data source - [Cricsheet](https://cricsheet.org/) also provides ball-by-ball data for every game in every IPL season from 2008 till date - and observed very similar performance levels during evaluation.
 
 In this post, however, the main goal is slightly different. The idea is to try and identify the teams that have the best chance of winning this year's tournament using data from the previous year, i.e., if $$x_i^t$$ is the data associated with team $$i$$ in season $$t$$, then the goal is to compute the probability ($$p_i^{t+1}$$) of team $$i$$ winning the title in season $$t+1$$ such that:

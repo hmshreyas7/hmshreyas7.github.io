@@ -5,7 +5,12 @@ title: Score and Win Predictor
 
 #### {{ page.date | date: "%B %-d, %Y" }}
 
-## Score and Win Predictor
+{% if page.path contains 'excerpt' %}
+<h2><a href="{{ page.url }}" style="text-decoration: none; color: unset;">{{ page.title }}</a></h2>
+{% else %}
+<h2>{{ page.title }}</h2>
+{% endif %}
+
 After earning my cricket analytics certificate, I started applying some of the techniques I learned to analyze data from both the [South Africa vs. India](https://github.com/hmshreyas7/sa-vs-ind-2021) Test series and the [Ashes](https://github.com/hmshreyas7/ashes-2021) in 2021/22. Through this experience, I was able to take a closer look at very intriguing aspects of the game such as a team's reliance on a single batter, batters that have stepped up when their team is under pressure, effectiveness of teams with the ball based on how old it is, and so on.
 
 Once I got a taste of data analytics in cricket thanks to the above experiments, I wanted to build something bigger. Drawing inspiration from popular prediction tools used in the industry such as [ESPNcricinfo's Forecaster](https://www.espncricinfo.com/video/a-look-at-espncricinfo-s-forecaster-1178477) and [CricViz's WinViz](https://www.cricviz.com/), I felt it would be cool to apply the AI & ML knowledge that I gained at university level to solve this problem on my own.
