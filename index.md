@@ -1,5 +1,6 @@
 ---
 mathjax: true
+title: {{ site.title }}
 ---
 
 ## Welcome!
